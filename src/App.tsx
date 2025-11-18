@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <div style={{ textAlign: "center", color: "red" }}>
-        <button onClick={() => setValue(value + 1)}>Click to increase</button>
+        <strong>
+          <button onClick={() => setValue(value + 1)}>Click to increase</button>
+        </strong>
         <p>{value}</p>
       </div>
     </>
