@@ -1,6 +1,6 @@
 .Card{
-    width:300px;
-    max-height:400px ;
+    width:200px;
+    max-height:250px ;
     border:1px solid #ccc;
     box-shadow:2px 2px 12px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -13,8 +13,8 @@
 }
 
 img{
-    width:180px;
-    height:180px;
+    width:160px;
+    height:160px;
     border-radius: 50%
 }
 
