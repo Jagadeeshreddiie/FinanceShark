@@ -1,0 +1,28 @@
+.Card{
+    width:300px;
+    height:auto;
+    border:1px solid #ccc;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(236, 237, 237);
+    
+}
+
+img{
+    width:180px;
+    height:180px;
+    border-radius: 50%
+}
+
+.Details{
+    font-weight: 500;
+    text-transform: uppercase;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.Info{
+    font-size: 12px;
+}

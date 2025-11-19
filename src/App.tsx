@@ -1,19 +1,15 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import CardList from "./Components/CardList/CardList";
+import cardData from "./Extras/data";
 
 function App() {
-  const [value, setValue] = useState(0);
+
+  const [data,setData]=useState(cardData());
   return (
     <>
-      <div style={{ textAlign: "center", color: "red" }}>
-        <strong>
-          <button onClick={() => setValue(value + 1)}>Click to increase</button>
-        </strong>
-        <p>{value}</p>
-      </div>
+      <CardList cardData={data}/>
     </>
   );
 }
-
 export default App;
