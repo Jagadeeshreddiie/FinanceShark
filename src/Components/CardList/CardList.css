@@ -1,6 +1,15 @@
-.CardList{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:20px;
+.CardList {
+  /* display: grid;
+    align-content:center ;
+    grid-template-columns: repeat(3,1fr); */
+  gap: 20px;
+  /* position: relative;
+    transform: translate(20%,20%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 100vh;
 }

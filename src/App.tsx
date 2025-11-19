@@ -4,11 +4,12 @@ import CardList from "./Components/CardList/CardList";
 import cardData from "./Extras/data";
 
 function App() {
-
-  const [data,setData]=useState(cardData());
+  const [data, setData] = useState(cardData());
   return (
     <>
-      <CardList cardData={data}/>
+      <div className="flex">
+        <CardList cardData={data} />
+      </div>
     </>
   );
 }
