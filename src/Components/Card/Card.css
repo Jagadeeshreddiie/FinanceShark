@@ -1,6 +1,7 @@
 .Card{
     width:200px;
-    max-height:250px ;
+    min-height:300px ;
+    height:auto;
     border:1px solid #ccc;
     box-shadow:2px 2px 12px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -19,11 +20,11 @@ img{
 }
 
 .Details{
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 300;
+    font-size: 12px;
     text-transform: capitalize;
     /* font-family: 'Courier New', Courier, monospace; */
 }
 .Info{
-    font-size: 12px;
+    font-size: 10px;
 }
